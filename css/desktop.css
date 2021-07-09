@@ -1,0 +1,29 @@
+.header {
+    margin-block-start: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header > h2 {
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+    max-width: 300px;
+}
+
+.container {
+    grid-template-columns: repeat(3, 20%);
+    justify-content: center;
+    align-items: center;
+}
+
+.main--card:nth-child(even) {
+    margin-block-start: 0;
+}
+
+.main--card:nth-child(2), .main--card:nth-child(5) {
+    margin-block-start: 6rem;
+}
